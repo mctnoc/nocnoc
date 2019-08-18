@@ -89,7 +89,7 @@ public:
         pchMessageStart[1] = 0xb3;
         pchMessageStart[2] = 0xc4;
         pchMessageStart[3] = 0xa4;
-        vAlertPubKey = ParseHex("03344635aa0306ddbf976ea6470e23437428d9d57ac381ff473e66c4e9ad85e1d8");
+        vAlertPubKey = ParseHex("027d8c2e28105a27743e56736e5980d1b4b4c11e682522af80f12e2e1ed9d949c5");
         nDefaultPort = 46969;
         bnProofOfWorkLimit = ~uint256(0) >> 20; 
         nSubsidyHalvingInterval = 500000;
@@ -163,7 +163,7 @@ public:
         fHeadersFirstSyncingActive = false;
 
         nPoolMaxTransactions = 3;
-        strSporkKey = "03344635aa0306ddbf976ea6470e23437428d9d57ac381ff473e66c4e9ad85e1d8";
+        strSporkKey = "027d8c2e28105a27743e56736e5980d1b4b4c11e682522af80f12e2e1ed9d949c5";
         strObfuscationPoolDummyAddress = "AdHqNDG3dTf6b8R3UHc3BAUdX6R1J8nBRV";
         nStartMasternodePayments = 1403728576; 
 
