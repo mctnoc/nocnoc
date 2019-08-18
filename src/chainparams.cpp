@@ -85,10 +85,10 @@ public:
     {
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
-        pchMessageStart[0] = 0xa1;
-        pchMessageStart[1] = 0xb3;
-        pchMessageStart[2] = 0xc4;
-        pchMessageStart[3] = 0xa4;
+        pchMessageStart[0] = 0xd1;
+        pchMessageStart[1] = 0xd3;
+        pchMessageStart[2] = 0xd4;
+        pchMessageStart[3] = 0xd4;
         vAlertPubKey = ParseHex("027d8c2e28105a27743e56736e5980d1b4b4c11e682522af80f12e2e1ed9d949c5");
         nDefaultPort = 46969;
         bnProofOfWorkLimit = ~uint256(0) >> 20; 
